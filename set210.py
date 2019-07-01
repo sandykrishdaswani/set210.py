@@ -1,6 +1,3 @@
-num=int(input())
-s=0
-while(num>0):
-  num=num//10
-  s=s+1
-print("%d"%s)
+q=int(input())
+for h in range(1,6,1):
+  print(q*h,end=" ")
